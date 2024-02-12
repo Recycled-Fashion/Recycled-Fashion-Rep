@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.main{
+    max-width: 1100px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.tienda-main{
+    display: flex;
+
+}
+
+.lista-categorias{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.lista-categorias .item-categoria{
+    display: block;
+    width: 90%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background: #446DBF;
+    border-radius: 2.5px;
+    
+    text-align: center;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.lista-categorias .item-categoria0, .item-categoria1, .item-categoria2, .item-categoria3, .item-categoria4, .item-categoria5{
+    display: block;
+    width: 90%;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    background: #7C7A9A;
+    border-radius: 5px;
+    
+    text-align: center;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.lista-categorias li a:hover{
+    background-color: #2b467a;
+}
+
+.lista-categorias li ul{
+    display: none;
+}
+
+.lista-categorias li:hover > ul{
+    display: block;
+}
+
+.lista-categorias .categoria-abierta{
+    background: #2b467a;
+}
+
+.main img[src="images/Logo FlipIt.png"]{
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.logo{
+    text-align: center;
+}
+
+.main .linea{
+    background-color: #BAB8C0;
+    height: 2px;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 14px; 
+}
+
+/*PRENDAS+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.lista-prendas{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-prendas .prenda{
+    width: 17%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.lista-prendas .prenda img{
+    width: 100%;
+}
+
+.lista-prendas .prenda a{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #A7A6A8;
+
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
