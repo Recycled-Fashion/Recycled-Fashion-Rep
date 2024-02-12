@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipIt - Compra y vende ropa</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <!--<h1>FlipIt!</h1>-->
+        <div class="logo">
+            <img src="images/Logo FlipIt.png" alt="">
+        </div>
+        <!--<img src="images/Logo FlipIt.png" alt="">-->
+        <div class="linea"></div>
+        <div class="tienda-main">
+
+            <ul class="lista-categorias">
+                <li><a href="#" class="item-categoria" categoria="todas">Todas las prendas</a></li>
+
+                <li><a href="#" class="item-categoria" categoria="tipo-prenda">Tipo de prenda</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria0" categoria0="camisetas">Camisetas</a></li>
+                        <li><a href="#" class="item-categoria0" categoria0="chaquetas">Chaquetas</a></li>
+                        <li><a href="#" class="item-categoria0" categoria0="zapatos">Zapatos</a></li>
+                        <li><a href="#" class="item-categoria0" categoria0="inferiores">Prendas Inferiores</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#" class="item-categoria" categoria="estado">Estado</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria1" categoria1="sinEstrenar-ce">Sin estrenar con etiqueta</a></li>
+                        <li><a href="#" class="item-categoria1" categoria1="sinEstrenar-se">Sin estrenar sin etiqueta</a></li>
+                        <li><a href="#" class="item-categoria1" categoria1="unSoloUso">Un solo uso</a></li>
+                        <li><a href="#" class="item-categoria1" categoria1="buenEstado">Buen estado</a></li>
+                        <li><a href="#" class="item-categoria1" categoria1="usado">Usado</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="#" class="item-categoria" categoria="talla">Talla</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria2" categoria2="xs">XS</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="s">S</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="m">M</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="l">L</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="xl">XL</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="xxl">XXL</a></li>
+                        <li><a href="#" class="item-categoria2" categoria2="talla-zapatos">Talla Zapatos</a>
+                            <ul>
+                                <li><a href="#" class="item-categoria2" categoria2="37-38.5">36-38.5</a></li>
+                                <li><a href="#" class="item-categoria2" categoria2="39-40.5">39-40.5</a></li>
+                                <li><a href="#" class="item-categoria2" categoria2="41-42.5">41-42.5</a></li>
+                                <li><a href="#" class="item-categoria2" categoria2="43-44.5">43-44.5</a></li>
+                                <li><a href="#" class="item-categoria2" categoria2="45-46.5">45-46.5</a></li>
+                                <li><a href="#" class="item-categoria2" categoria2="47-48.5">47-48.5</a></li>
+                            </ul>
+                        </li>                            
+                    </ul>
+                </li>
+                    
+                <li><a href="#" class="item-categoria" categoria="marca">Marca</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria3" categoria3="puma">Puma</a></li>
+                        <li><a href="#" class="item-categoria3" categoria3="polo">Polo</a></li>
+                        <li><a href="#" class="item-categoria3" categoria3="skechers">Skechers</a></li>
+                        <li><a href="#" class="item-categoria3" categoria3="otras-marcas">Otras Marcas</a></li>
+                    </ul>  
+                </li>
+                    
+                <li><a href="#" class="item-categoria" categoria="color">Color</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria4" categoria4="negro">Negro</a></li>
+                        <li><a href="#" class="item-categoria4" categoria4="blanco">Blanco</a></li>
+                        <li><a href="#" class="item-categoria4" categoria4="rojo">Rojo</a></li>
+                        <li><a href="#" class="item-categoria4" categoria4="verde">Verde</a></li>
+                        <li><a href="#" class="item-categoria4" categoria4="gris">Gris</a></li>
+                        <li><a href="#" class="item-categoria4" categoria4="azul">Azul</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="#" class="item-categoria" categoria="precio">Rango de precio</a>
+                    <ul>
+                        <li><a href="#" class="item-categoria5" categoria5="0k-20k">0k-20k</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="21k-50k">21k-50k</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="51k-100k">51k-100k</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="101k-300k">101k-300k</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="301k-500k">301k-500k</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="501k-1M">501k-1M</a></li>
+                        <li><a href="#" class="item-categoria5" categoria5="1M+">1M+</a></li>
+                    </ul>   
+                </li>              
+            </ul>
+
+            <section class="lista-prendas">
+                <div class="prenda" categoria0="camisetas" categoria1="sinEstrenar-ce" categoria2="m" categoria3="polo" categoria4="azul" categoria5="51k-100k">
+                    <img src="images/polo.azul.etiqueta.jpeg" alt="">
+                    <a href="#">Camiseta Polo Basica</a>
+                    <a href="">Precio: 70.000</a>
+                    <a href="">Sin estrenar CE | M</a>
+                </div>
+                <div class="prenda" categoria0="camisetas" categoria1="usado" categoria2="xl" categoria3="puma" categoria4="negro gris blanco" categoria5="21k-50k">
+                    <img src="images/puma.gris.usada.buenestado.jpeg" alt="">
+                    <a href="#">Camiseta Polo de Rayas</a>
+                    <a href="">Precio: 30.000</a>
+                    <a href="">Usado | XL</a>
+                </div>
+                <div class="prenda" categoria0="chaquetas" categoria1="unSoloUso" categoria2="l" categoria3="otras-marcas" categoria4="rojo" categoria5="101k-300k">
+                    <img src="images/chaqueta.roja.L.otrasmarcas.jpg" alt="">
+                    <a href="#">Chaqueta Impermeable</a>
+                    <a href="">Precio: 120.000</a>
+                    <a href=""> Un solo uso | L</a>
+                </div>
+                <div class="prenda" categoria0="zapatos" categoria1="sinEstrenar-se" categoria2="41-42.5" categoria3="skechers" categoria4="negro gris" categoria5="301k-500k">
+                    <img src="images/tenis.skechers.usados.38.jpeg" alt="">
+                    <a href="#">Tenis Deportivos</a>
+                    <a href="">Precio: 350.000</a>
+                    <a href="">Sin estrenar SE | 42</a>
+                </div>
+                <div class="prenda" categoria0="inferiores" categoria1="buenEstado" categoria2="s" categoria3="otras-marcas" categoria4="verde" categoria5="0k-20k">
+                    <img src="images/sudadera.verde.tallaM.jpeg" alt="">
+                    <a href="#">Sudadera Bota Tubo</a>
+                    <a href="">Precio: 20.000</a>
+                    <a href="">Buen estado | S</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
