@@ -1,1 +1,0 @@
-Instrucción de uso: Abra el archivo index.html
