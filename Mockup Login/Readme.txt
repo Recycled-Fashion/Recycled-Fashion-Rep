@@ -1,0 +1,1 @@
+Instrucción de uso: Abra el archivo Registro.html
