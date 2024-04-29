@@ -1,0 +1,11 @@
+Diagrama de Componentes:
+
+Este diagrama representa los diversos componentes que componen nuestra aplicación para comprar y vender ropa usada y nueva. En nuestra empresa, este diagrama debe incluir:
+
+    Interfaz de Usuario (UI): La parte de la aplicación con la que interactúan los usuarios para navegar, buscar productos, realizar compras y ventas, y gestionar sus cuentas.
+
+    Lógica de Negocios: Este componente maneja la lógica detrás de las operaciones de la aplicación, como el procesamiento de transacciones, la verificación de la autenticidad de los productos, la gestión de cuentas de usuario y la implementación de medidas de seguridad.
+
+    Base de Datos: Donde se almacenan todos los datos relevantes de la aplicación, como información de los usuarios, detalles de productos, historial de transacciones y configuraciones del sistema. Es crucial para garantizar que la información esté disponible y segura.
+
+    Servicios de Envío: Integración con la agencia de envíos para facilitar la logística, incluido el cálculo de tarifas de envío, generación de etiquetas de envío y seguimiento de paquetes. Esto asegura una experiencia fluida para los usuarios al manejar las operaciones logísticas de manera eficiente.

@@ -1,0 +1,13 @@
+Modelo de Datos:
+
+Este modelo describe cómo se organiza y se relaciona la información en la base de datos de nuestra aplicación. En nuestra empresa, el modelo de datos debe incluir:
+
+    Entidades Principales: Como usuarios, productos, transacciones y categorías de productos. Cada entidad representa un tipo de información específica que se almacenará en la base de datos.
+
+    Atributos de las Entidades: Los diferentes campos o propiedades que describen cada entidad. Por ejemplo, para la entidad de usuario, los atributos pueden incluir nombre, dirección de correo electrónico y contraseña.
+
+    Relaciones entre Entidades: Las conexiones lógicas entre las diferentes entidades. Por ejemplo, la relación entre un usuario y las transacciones que ha realizado, o entre un producto y su categoría.
+
+    Claves Primarias y Foráneas: Identificadores únicos que se utilizan para relacionar las diferentes entidades entre sí. Esto garantiza la integridad de los datos y facilita la recuperación eficiente de la información relacionada.
+
+En resumen, estos diagramas y modelos son herramientas vitales que guiarán el desarrollo y la implementación exitosa de nuestra aplicación, asegurando una arquitectura sólida, una operación eficiente y una experiencia de usuario excepcional.

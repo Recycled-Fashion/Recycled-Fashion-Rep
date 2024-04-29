@@ -1,0 +1,11 @@
+Diagrama de Despliegue:
+
+Este diagrama muestra cómo se implementa y se distribuye nuestra aplicación en un entorno de producción. En nuestra empresa, el diagrama de despliegue debe incluir:
+
+    Servidores de Aplicación: Los servidores donde se ejecuta el código de la aplicación, proporcionando acceso a la funcionalidad de la aplicación a los usuarios a través de Internet. Se pueden distribuir en clústeres para garantizar la escalabilidad y la redundancia.
+
+    Base de Datos: El servidor donde se aloja la base de datos de la aplicación. Puede ser un servidor dedicado o una instancia en la nube, optimizado para garantizar un acceso rápido y seguro a los datos.
+
+    Servicios de Envío: Integración con los sistemas de la agencia de envíos para realizar operaciones de envío y seguimiento. Se pueden implementar como servicios web o integraciones de API para una comunicación eficiente.
+
+    Balanceador de Carga: Para distribuir el tráfico entrante entre múltiples servidores de aplicación, garantizando un rendimiento óptimo y una alta disponibilidad de la aplicación.
